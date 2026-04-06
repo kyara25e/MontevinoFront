@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@import "leaflet/dist/leaflet.css";
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+
+
+.btn-primary {
+    @apply block px-4 py-2 rounded-lg bg-orange-300 text-black font-semibold shadow-md hover:bg-red-900 hover:text-white; 
+}
+
